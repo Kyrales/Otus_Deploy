@@ -1,0 +1,15 @@
+pipeline {
+    agent { label "onecbuilder" }
+    stages {
+        stage('copy cf') {
+            steps {
+                copyArtifacts(projectName: 'demo_build_onec');
+            }
+        }
+        stage('deploy to bases') {
+            steps {
+                sh 'oscript tools/deploy_test.os'
+            }
+        }
+    }
+}

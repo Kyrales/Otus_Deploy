@@ -1,0 +1,5 @@
+[
+    {"Имя":"base 1", "СтрокаПодключения":"/F/home/nick/Документы/OTUS/ibs/demo1 --db-user=test_user --db-pwd=123"},
+    {"Имя":"base 2", "СтрокаПодключения":"/F/home/nick/Документы/OTUS/ibs/demo2 --db-user=test_user --db-pwd=123"},
+    {"Имя":"base 3", "СтрокаПодключения":"/F/home/nick/Документы/OTUS/ibs/demo3 --db-user=test_user --db-pwd=123"}
+]
