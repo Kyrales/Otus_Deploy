@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('copy cf') {
             steps {
-                copyArtifacts(projectName: 'demo_build_onec');
+                copyArtifacts(projectName: 'Otus_Deploy/build');
             }
         }
         stage('deploy to bases') {
