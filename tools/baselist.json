@@ -1,10 +1,10 @@
 [
     {
         "Имя": "base 1",
-        "СтрокаПодключения": "f:\\1C\\Base\\DeployBase1 --db-user=test_user --db-pwd=123"
+        "СтрокаПодключения": "/Ff:/1C/Base/DeployBase1 --db-user=test_user --db-pwd=123"
     },
     {
         "Имя": "base 2",
-        "СтрокаПодключения": "f:/1C/Base/DeployBase2 --db-user=test_user --db-pwd=123"
+        "СтрокаПодключения": "/Ff:/1C/Base/DeployBase2 --db-user=test_user --db-pwd=123"
     }
 ]
