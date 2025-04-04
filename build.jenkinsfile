@@ -4,23 +4,23 @@ pipeline {
     stages {
         stage('prep base') {
             steps {
-                sh 'vrunner init-dev --ibcmd --src ./src/cf'
+                powershell 'vrunner init-dev --ibcmd --src ./src/cf'
             }
         }
 
         stage('compile yaxunit 2 cfe') {
             steps {
-                sh 'vrunner compileexttocfe --ibcmd --src=./src/cfe/yaxunit --out=./build/yaxunit.cfe --ibconnection /Fbuild/ib'
+                powershell 'vrunner compileexttocfe --ibcmd --src=./src/cfe/yaxunit --out=./build/yaxunit.cfe --ibconnection /Fbuild/ib'
             }
         }
         stage('load yaxunit from cfe') {
             steps {
-                sh 'vrunner run --execute \'$runnerRoot/epf/ЗагрузитьРасширениеВРежимеПредприятия.epf\' --command \'Путь=./build/yaxunit.cfe;Имя=YAXUNIT;ОтключитьЛогикуНачалаРаботыСистемы;ЗавершитьРаботуСистемы\' --ibconnection /Fbuild/ib'
+                powershell 'vrunner run --execute \'$runnerRoot/epf/ЗагрузитьРасширениеВРежимеПредприятия.epf\' --command \'Путь=./build/yaxunit.cfe;Имя=YAXUNIT;ОтключитьЛогикуНачалаРаботыСистемы;ЗавершитьРаботуСистемы\' --ibconnection /Fbuild/ib'
             }
         }
          stage('run yaxunit test') {
             steps {
-                sh 'vrunner run --command RunUnitTests=yaxunit.json --ibconnection /Fbuild/ib --exitCodePath "./build/yaxunit-exitCode"'
+                powershell 'vrunner run --command RunUnitTests=yaxunit.json --ibconnection /Fbuild/ib --exitCodePath "./build/yaxunit-exitCode"'
             }
         }
 
@@ -37,7 +37,7 @@ pipeline {
                 ])
         }
         success {
-            sh 'vrunner unload ./build/conf.cf --ibcmd --ibconnection /Fbuild/ib'
+            powershell 'vrunner unload ./build/conf.cf --ibcmd --ibconnection /Fbuild/ib'
             archiveArtifacts artifacts: 'build/conf.cf', fingerprint: true
         }
     }

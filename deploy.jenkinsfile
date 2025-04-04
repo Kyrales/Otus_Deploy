@@ -8,7 +8,7 @@ pipeline {
         }
         stage('deploy to bases') {
             steps {
-                sh 'oscript tools/deploy_test.os'
+                powershell 'oscript tools/deploy_test.os'
             }
         }
     }
