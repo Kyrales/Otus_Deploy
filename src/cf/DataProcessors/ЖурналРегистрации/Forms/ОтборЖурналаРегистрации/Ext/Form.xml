@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -20,7 +20,6 @@
 		<UsualGroup name="ГруппаДаты" id="4">
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДатыExtendedTooltip" id="193"/>
@@ -59,7 +58,6 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>LeftWide</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаОсновныеСвойстваExtendedTooltip" id="196"/>
@@ -78,7 +76,6 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОсновныеСтроковыеExtendedTooltip" id="197"/>
@@ -141,7 +138,6 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВажностьExtendedTooltip" id="203"/>
@@ -160,7 +156,6 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВажностьШапкаExtendedTooltip" id="204"/>
@@ -325,7 +320,6 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаДанныеСвойстваExtendedTooltip" id="212"/>
 			<ChildItems>
@@ -373,14 +367,12 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаПрочиеСвойстваExtendedTooltip" id="216"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаТранзакция" id="56">
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаТранзакцияExtendedTooltip" id="217"/>
@@ -399,7 +391,6 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСтатусТранзакцииШапкаExtendedTooltip" id="218"/>
@@ -559,7 +550,6 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаСоединения" id="59">
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСоединенияExtendedTooltip" id="227"/>
@@ -576,7 +566,6 @@
 						</InputField>
 						<UsualGroup name="ГруппаСерверы" id="60">
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСерверыExtendedTooltip" id="229"/>
 							<ChildItems>

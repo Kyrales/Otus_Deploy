@@ -53,12 +53,6 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
-		<index>0</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>1</index>
 		<row>
 			<formatIndex>4</formatIndex>
@@ -74,13 +68,6 @@
 					</tl>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>2</index>
-		<indexTo>3</indexTo>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -213,13 +200,6 @@
 					<tl/>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>10</index>
-		<indexTo>11</indexTo>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>

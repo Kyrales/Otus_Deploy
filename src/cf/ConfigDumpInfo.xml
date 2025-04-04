@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
 		<Metadata name="AccumulationRegister.Взаиморасчеты" id="af9279d9-ced0-4735-8fab-28669b9f971d" configVersion="35b4d78f95a65c4d92e847ec1c0bc36400000000">
 			<Metadata name="AccumulationRegister.Взаиморасчеты.Dimension.Контрагент" id="240e5ef9-cbc3-4455-a536-f5f185a0661d"/>
@@ -259,8 +259,8 @@
 		<Metadata name="CommonForm.ФормаПодбора.Form" id="2ee68edc-96ef-4ce6-817a-3b31fb3437ea.0" configVersion="f9d4eb42ebd05f4ebcef16d6359ef55100000000"/>
 		<Metadata name="CommonForm.ФормаПодбораМобильная" id="495fb629-7a6c-4a34-9a33-f944761566d7" configVersion="9a97c8b42f31b94186ff4f6370e24f8100000000"/>
 		<Metadata name="CommonForm.ФормаПодбораМобильная.Form" id="495fb629-7a6c-4a34-9a33-f944761566d7.0" configVersion="a36ac23a21f1b94ca113470ab43220cd00000000"/>
-		<Metadata name="CommonModule.API_ОписанияТоваров" id="242fbd33-554c-4791-8726-39730340718b" configVersion="bd27a5432b0910468ac03e7575db753200000000"/>
-		<Metadata name="CommonModule.API_ОписанияТоваров.Module" id="242fbd33-554c-4791-8726-39730340718b.0" configVersion="92ae28d99b339647899e400e40c4586b00000000"/>
+		<Metadata name="CommonModule.API_ОписанияТоваров" id="dfbfd61a-d440-45fa-bbbb-d5545ecbeacb" configVersion="848d8ec65c18534f9a1f7b79e8d0e6eb00000000"/>
+		<Metadata name="CommonModule.API_ОписанияТоваров.Module" id="dfbfd61a-d440-45fa-bbbb-d5545ecbeacb.0" configVersion="40cffeada5b61d4ba4e288cdc92b5c8700000000"/>
 		<Metadata name="CommonModule.БотКлиент" id="0ef8012b-9c54-495b-9b01-b44dc0614587" configVersion="58b31e2bef7b9a4d9bf8309e6a7b1e7d00000000"/>
 		<Metadata name="CommonModule.БотКлиент.Module" id="0ef8012b-9c54-495b-9b01-b44dc0614587.0" configVersion="b25bc2585252d14b97227521f9cceb1200000000"/>
 		<Metadata name="CommonModule.БотСервер" id="89c003b3-6da2-4133-a263-2095675f944c" configVersion="e9b2d4115be12842a27e56fcd032ec9700000000"/>
@@ -359,7 +359,7 @@
 		<Metadata name="CommonTemplate.КомпонентаПечатиШтрихкодовWindows32.Template" id="a0478cfc-4d22-451f-b62a-66e247ce4c49.0" configVersion="608d4d31c3a19b4d95b387d4d690084900000000"/>
 		<Metadata name="CommonTemplate.КомпонентаПечатиШтрихкодовWindows64" id="87438695-fa9a-432e-b5d2-84cc06e9ff6d" configVersion="e50158c4d76d2b40afdb79d03006d64b00000000"/>
 		<Metadata name="CommonTemplate.КомпонентаПечатиШтрихкодовWindows64.Template" id="87438695-fa9a-432e-b5d2-84cc06e9ff6d.0" configVersion="589c98b153119a498adeef17ce1b570400000000"/>
-		<Metadata name="Configuration.ДемонстрационноеПриложение" id="a3a9949e-f1f0-4b3a-821f-a85a9fb2fb3c" configVersion="f11fc9c71b50484ea9ab7ef3fb9111fc00000000"/>
+		<Metadata name="Configuration.ДемонстрационноеПриложение" id="a3a9949e-f1f0-4b3a-821f-a85a9fb2fb3c" configVersion="6c0ac09095c4df4a9049e61cc0518dd600000000"/>
 		<Metadata name="Configuration.ДемонстрационноеПриложение.ClientApplicationInterface" id="71dad3e5-411e-4faa-9358-8eccdce47784.b" configVersion="30160f9ecb907042a37474f67e1e0c7500000000"/>
 		<Metadata name="Configuration.ДемонстрационноеПриложение.CommandInterface" id="71dad3e5-411e-4faa-9358-8eccdce47784.a" configVersion="02a5ba19f8fa814aa137cd4db607618800000000"/>
 		<Metadata name="Configuration.ДемонстрационноеПриложение.Help" id="71dad3e5-411e-4faa-9358-8eccdce47784.3" configVersion="1a46391bf3b12e4a85181298661b9b8300000000"/>
@@ -749,11 +749,11 @@
 		<Metadata name="FunctionalOption.РаботаСТорговымОборудованием" id="5a7348ed-7b1c-41ee-be6e-3e15fbbae7c3" configVersion="54f9c77b0a532d4eb271dcac9aeed50000000000"/>
 		<Metadata name="FunctionalOption.УчетПоСкладам" id="bfb919da-7536-45e7-bc86-76b3a8a65e8f" configVersion="c7c288293cbf774fbd890c717941f00a00000000"/>
 		<Metadata name="FunctionalOptionsParameter.Организация" id="692dff86-37db-4f01-beea-16e675429ff1" configVersion="598940844fc0b7469644747e3002798a00000000"/>
-		<Metadata name="HTTPService.ОписанияТоваров" id="009d5536-bf91-46e1-83dc-d2883e9f8bc8" configVersion="5a68778eb237cd4c8065c66393a363b400000000">
+		<Metadata name="HTTPService.ОписанияТоваров" id="009d5536-bf91-46e1-83dc-d2883e9f8bc8" configVersion="b9e737142290a0448d2ff422f7f7894d00000000">
 			<Metadata name="HTTPService.ОписанияТоваров.URLTemplate.V1_ВызовМетода" id="ef44555a-bb40-44ec-824f-20b29ee71bd4"/>
 			<Metadata name="HTTPService.ОписанияТоваров.URLTemplate.V1_ВызовМетода.Method.POST" id="f4f58bd5-cec0-4561-a233-f9ab46d2a074"/>
 		</Metadata>
-		<Metadata name="HTTPService.ОписанияТоваров.Module" id="009d5536-bf91-46e1-83dc-d2883e9f8bc8.0" configVersion="14753f803c57d9498e1561b09b23d73200000000"/>
+		<Metadata name="HTTPService.ОписанияТоваров.Module" id="009d5536-bf91-46e1-83dc-d2883e9f8bc8.0" configVersion="6e59f8f97bd77b40b7841c7b8cf7144b00000000"/>
 		<Metadata name="HTTPService.Товары" id="17acc7ad-67cf-47f8-bfad-6b7a036eb5a9" configVersion="212110cdedaded4fb636916ccc392cb500000000">
 			<Metadata name="HTTPService.Товары.URLTemplate.ПутьКТовару.Method.DELETE" id="37823a19-084a-4dfc-9fbb-98f9698b67c4"/>
 			<Metadata name="HTTPService.Товары.URLTemplate.ПутьКТовару.Method.GET" id="725bab7e-3b3c-4e3d-9a8e-10b031d7c065"/>
