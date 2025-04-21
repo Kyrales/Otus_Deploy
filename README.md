@@ -1,3 +1,5 @@
+### Актуальное видео Открытого урока
+https://www.youtube.com/watch?v=uD6qURLFJ9o&list=PLfnFOImnyWRUSVNtDVIPGlG9Dag6gnDtj
 
 ### Плагины для Jenkins
 Allure
