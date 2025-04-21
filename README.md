@@ -3,6 +3,7 @@ https://www.youtube.com/watch?v=uD6qURLFJ9o&list=PLfnFOImnyWRUSVNtDVIPGlG9Dag6gn
 
 ### Плагины для Jenkins
 Allure
+
 Copy Artifact
 
 
